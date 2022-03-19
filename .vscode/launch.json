@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch BeautifulParanthesis",
+            "request": "launch",
+            "mainClass": "BackTracking.BeautifulParanthesis",
+            "projectName": "Code_c2360fe2"
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
