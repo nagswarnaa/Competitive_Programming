@@ -7,13 +7,15 @@ class Node:
 """
 
 class Solution:
-    def __init__(self):
-        self.post=[]
+        
     def postorder(self, root: 'Node') -> List[int]:
-        if not root:
-            return 
-        for i in root.children:
-            self.postorder(i)
-        self.post.append(root.val)
-        return self.post
+        post=[]
+        def order(root):
+            if not root:
+               return 
+            for i in root.children:
+                order(i)
+            post.append(root.val)
+        order(root)
+        return post
         
