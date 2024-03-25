@@ -1,1 +1,1 @@
-# List of leetcode problems and thier solutions
+# A repository dedicated to competetive programming problems and thier solutions
